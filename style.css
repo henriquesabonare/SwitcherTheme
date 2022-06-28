@@ -12,7 +12,6 @@ body.dark{
 }
 body{
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,7 +24,7 @@ label{
   justify-content: space-between;
 
   width: 13vw;
-  height: 10vh;
+  height: 8vh;
 
   background-color: var(--background-label-color--);
   border-radius: 50px;
@@ -39,7 +38,7 @@ label{
   transition: transform 0.2s linear;
 }
 #checkbox:checked + label .ball{
-  transform: translateX(15.6vh);
+  transform: translateX(17vh);
 }
 #checkbox{
   opacity: 0;
